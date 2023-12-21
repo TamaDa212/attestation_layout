@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Poppins;
+    font-weight: 400;
+    src: url('../attestation_layout/font/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 700;
+    src: url('../attestation_layout/font/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Jost;
+    font-weight: 400;
+    src: url('../attestation_layout/font/jost/static/Jost-Regular.ttf');
+}
+
+@font-face {
+    font-family: Jost;
+    font-weight: 700;
+    src: url('../attestation_layout/font/jost/static/Jost-Bold.ttf');
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-container {
+    width: 40%;
+}
+
+.menu { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0E0578;
+}
+
+.menu-item {
+    color: #686565;
+    list-style-type: none;
+}
