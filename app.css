@@ -22,6 +22,28 @@
     src: url('../attestation_layout/font/jost/static/Jost-Bold.ttf');
 }
 
+textarea {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    border: 1.5px solid black;
+
+}
+
+p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
 a {
     text-decoration: none;
 }
@@ -37,6 +59,8 @@ html {
 body {
     width: 100vw;
     height: 100vh;
+
+    
 }
 
 
@@ -68,3 +92,81 @@ body {
     color: #686565;
     list-style-type: none;
 }
+
+.collum2 {
+    column-count: 2;
+}
+
+.front-part-text-container {
+    column-count: 2;
+}
+
+.front-part-subtitle {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #2000E7;
+}
+
+.blue-button {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color:  #2000E7;
+    padding: 26px 42px 16px 46px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.front-part-button {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 26px 42px 16px 46px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.image-frap {
+    width: 2440px;
+    height: 610px;
+    top: 3277px;
+    border: 1px solid gray;
+    background-color: #FFD696;
+
+}
+
+.photo {
+    display: block;
+    margin: auto;
+}
+
+.font-h3 {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0.27em;
+    text-align: center;
+    color: #2000E7;
+
+}
+
+.size-h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
